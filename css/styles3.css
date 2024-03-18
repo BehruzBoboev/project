@@ -1,0 +1,162 @@
+.categories-pics {
+  position: static;
+width: 217px;
+height: 300px;
+border-radius: 12px;
+}
+
+.logo {
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+
+.header {
+  width: 100%;
+  height: 128px;
+}
+
+.purchase {
+  margin-bottom: 39px;
+  margin-right: 40px;
+  margin-top: 41px;
+}
+
+.contact-item {
+  border-radius: 12px;
+  background: rgb(241, 243, 244);
+}
+
+#contact-item1 {
+  margin-top: 32px;
+  vertical-align: top;
+  width: 750px;
+  height: 150px;
+  padding: 32px;
+  margin-left: 40px;
+}
+
+#contact-item2 {
+  vertical-align: top;
+  width: 400px;
+  height: 150px;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+#contact-item3 {
+  margin-left: 40px;
+
+  margin-top: 32px;
+  vertical-align: top;
+  width: 750px;
+  height: 190px;
+  padding: 32px;
+}
+
+#contact-item4 {
+  vertical-align: top;
+  margin-top: 32px;
+  margin-left: 32px;
+  width: 400px;
+  height: 190px;
+  
+}
+
+.where-we-are {
+  width: 1186px;
+  height: 350px;
+  margin-left: 40px;
+  margin-top: 32px;
+  margin-bottom: 150px;
+}
+
+.contact-head {
+  margin-left: 40px;
+}
+
+.sales-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.sales-card {
+  border-radius: 12px;
+  border: 1px solid rgb(221, 221, 221);
+  width: 270px;
+  padding: 0;
+  margin: 0px;
+  margin-right: 33px;
+}
+
+.p-sale {
+  margin-left: 12px;
+  padding-bottom: 24px;
+  display: inline;
+  color: rgb(40, 40, 40);
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.p-striked {
+  padding-bottom: 24px;
+  display: inline;
+  color: rgb(139, 139, 139);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: line-through;
+}
+
+.sale-product {
+  margin-top: 12px;
+  margin-left: 12px;
+  color: rgb(40, 40, 40);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.cont {
+  position: relative;
+  margin-bottom: 32px;
+}
+
+.cont .btn {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.btn {
+  width: 240px;
+  margin-top: 30px;
+  height: 45px;
+  display: none;
+  background-color: rgb(34, 126, 27);
+    animation: fadeIn 1s ease; 
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1; 
+}
+}
+
+#first {
+  margin-left: 40px;
+}

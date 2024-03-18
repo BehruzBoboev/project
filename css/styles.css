@@ -1,0 +1,356 @@
+body {
+  width: 100%;
+}
+
+.purchase {
+  margin-bottom: 39px;
+  margin-right: 40px;
+  margin-top: 41px;
+}
+
+.logo {
+  margin-left: 40px;
+  margin-top: 30px;
+  margin-bottom: 28px;
+}
+
+.header {
+  width: 100%;
+  height: 128px;
+}
+
+.nav-text {
+  color: rgb(40, 40, 40);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  text-align: left;
+}
+
+.background {
+  margin-bottom: 80px;
+  padding: 0%;
+  width: 100%;
+  height: 600px;
+  background-image: url(../img/background.jpg);
+  background-size: cover;
+  background-clip: content-box;
+  background-position: center bottom -50px;
+}
+
+.background::before {
+  background-size: cover;
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 600px;
+  background-color: rgba(0, 0, 0, 0.4);
+  /* mix-blend-mode: multiply; */
+}
+
+.amazing-discounts {
+  padding-top: 80px;
+  padding-left: 40px;
+  position: relative;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 96px;
+  font-weight: 700;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: left;
+  z-index: 89;
+}
+
+.check-button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 16px 56px 16px 56px;
+  z-index: 1;
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 130%;
+  text-align: center;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.categories-pics {
+  border-radius: 5%;
+  width: 260px;
+  height: 300px;
+  vertical-align: middle;
+}
+
+.catigories-text {
+  color: rgb(40, 40, 40);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 110%;
+  text-align: left;
+  margin-top: 80px;
+  margin-bottom: 40px;
+  margin-left: 27px;
+}
+
+#categories-1 {
+  margin-left: 0px;
+  display: inline;
+  justify-content: space-between;
+}
+
+.card-description {
+  bottom: 0;
+  margin-left: 45px;
+  color: rgb(40, 40, 40);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  text-align: center;
+}
+
+#fertilzer {
+  width: 250px;
+  padding: 2;
+  margin-right: 50px;
+}
+
+h1 {
+  padding: 13px;
+  margin: 10px;
+}
+
+hr {
+  display: inline-block;
+  width: 57.6%;
+  margin-left: 0;
+  margin: 0px;
+  margin-bottom: 15px;
+  text-align: 20mm;
+}
+
+#categories-button {
+  color: rgb(139, 139, 139);
+  font-family: Montserrat;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 126%;
+  text-align: center;
+  border: 1px solid rgb(221, 221, 221);
+  width: 142px;
+  height: 36px;
+  border-radius: 6px;
+  padding: 8px 16px 8px 16px;
+  margin-left: 0px;
+  margin-right: 0;
+  margin-top: -30px;
+}
+
+#categories-1 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+#button {
+  height: 35px;
+  margin-bottom: 10px;
+  padding: 0;
+  padding-bottom: 20px;
+  container: 29px;
+  top: 10px;
+}
+
+.form {
+  border-radius: 12px;
+  background: linear-gradient(220.54deg,
+      rgb(11, 113, 11) 32.635%,
+      rgb(51, 153, 51) 98.958%);
+  height: 457px;
+  margin-left: 40px;
+  margin-right: 40px;
+  width: 1200px;
+  margin-bottom: 60px;
+}
+
+.form-image {
+  width: 600px;
+  height: 350px;
+}
+
+.form-h {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 110%;
+  text-align: center;
+}
+
+.input-form {
+  width: 426px;
+  height: 58px;
+  background: linear-gradient(220.54deg,
+      rgb(11, 113, 11) 32.635%,
+      rgb(51, 153, 51) 98.958%);
+  color: black;
+}
+
+.form-cont {
+  width: 426px;
+  height: 296px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn-white {
+  background-color: white;
+  width: 426px;
+  height: 58px;
+}
+
+.btn-white:hover {
+  background-color: rgb(223, 220, 220);
+}
+
+.form-text {
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.hr-2 {
+  width: 75%;
+}
+
+.sales-img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.sales-card {
+  border-radius: 12px;
+  border: 1px solid rgb(221, 221, 221);
+  width: 270px;
+  padding: 0;
+  margin: 0px;
+  margin-right: 33px;
+}
+
+#sales-card1 {
+  margin-left: 40px;
+}
+
+.p-sale {
+  margin-left: 12px;
+  padding-bottom: 24px;
+  display: inline;
+  color: rgb(40, 40, 40);
+  font-family: Montserrat;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 110%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.p-striked {
+  padding-bottom: 24px;
+  display: inline;
+  color: rgb(139, 139, 139);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: line-through;
+}
+
+.sale-product {
+  margin-top: 12px;
+  margin-left: 12px;
+  color: rgb(40, 40, 40);
+  font-family: Montserrat;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 130%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+
+.sales-head {
+  margin-top: 36px;
+  margin-bottom: 24px;
+}
+
+.sales {
+  margin-top: 35px;
+}
+
+.contact-item {
+  border-radius: 12px;
+  background: rgb(241, 243, 244);
+}
+
+#contact-item1 {
+  margin-top: 32px;
+  vertical-align: top;
+  width: 750px;
+  height: 150px;
+  padding: 32px;
+  margin-left: 40px;
+}
+
+#contact-item2 {
+  vertical-align: top;
+  width: 400px;
+  height: 150px;
+  margin-top: 32px;
+  margin-left: 32px;
+}
+
+#contact-item3 {
+  margin-left: 40px;
+
+  margin-top: 32px;
+  vertical-align: top;
+  width: 750px;
+  height: 190px;
+  padding: 32px;
+}
+
+#contact-item4 {
+  vertical-align: top;
+  margin-top: 32px;
+  margin-left: 32px;
+  width: 400px;
+  height: 190px;
+  
+}
+
+.where-we-are {
+  width: 1186px;
+  height: 350px;
+  margin-left: 40px;
+  margin-top: 32px;
+  margin-bottom: 150px;
+}
+
+@media only screen and (min-width: 600px) and (max-width: 1024px) {
+  
+}
